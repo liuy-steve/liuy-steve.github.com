@@ -22,7 +22,7 @@ tags: [pclint]
   
 ## a sample
 
-============================================================
+---------------------------------------
 
 add menu contents: 
 
@@ -35,7 +35,7 @@ Arguments:				-os($(ProjectFileName).lnt) +linebuf $(ProjectFileName)
 Initial directory:$(ProjectDir)
 
 
-============================================================
+---------------------------------------
 
 Title:						pclint check prj
 
@@ -45,7 +45,7 @@ Arguments:				+ffn -i"D:\lint" std.lnt env-vc9.lnt $(ProjectFileName).lnt
 
 Initial directory:$(ProjectDir)
 
-============================================================
+---------------------------------------
 
 ###!note 
 
