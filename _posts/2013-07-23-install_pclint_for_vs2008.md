@@ -51,4 +51,4 @@ Initial directory:$(ProjectDir)
 
 将sample中的path替换成本机的path呦
 
-![git代码库结构]({{ site.img_url }}/20130723/1.jpg)
+![截图示意]({{ site.img_url }}/20130723/1.jpg)
