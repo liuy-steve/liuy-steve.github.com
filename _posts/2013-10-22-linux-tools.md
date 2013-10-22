@@ -12,28 +12,9 @@ linux 工具
 大家常用的Linux下的命令行工具有哪些呢？最近有同事培训了简单的linux命令行工具
 的使用，对基本的几个工具进行了介绍。科室千万别小看这些基本工具。
 
-** 分析网卡流量**
+**分析网卡流量**
 
 在linux下使用sar命令，可以显示网络信息。
-
-Usage: sar [ options... ] [ <interval> [ <count> ] ]
-
-Options are:
-
-[ -A ] [ -b ] [ -B ] [ -c ] [ -d ] [ -H ] [ -h ] [ -i <interval> ] [ -q ]
-
-[ -r ] [ -R ] [ -t ] [ -u ] [ -v ] [ -V ] [ -w ] [ -W ] [ -y ]
-
-[ -I { <irq> | SUM | ALL | XALL } ] [ -P { <cpu> | ALL } ]
-
-[ -n { DEV | EDEV | SOCK | FULL } ]
-
-[ -x { <pid> | SELF | ALL } ] [ -X { <pid> | SELF | ALL } ]
-
-[ -o [ <filename> ] | -f [ <filename> ] ]
-
-[ -s [ <hh:mm:ss> ] ] [ -e [ <hh:mm:ss> ] ]
-
 
 sar提供六种不同的语法选项来显示网络信息。-n选项使用6个不同的开关：DEV | EDEV | NFS | NFSD | SOCK | ALL 。DEV显示网络接口信息，EDEV显示关于网络错误的统计数据，NFS统计活动的NFS客户端的信息，NFSD统计NFS服务器的信息，SOCK显示套接字信息，ALL显示所有5个开关。它们可以单独或者一起使用。
 
@@ -147,9 +128,9 @@ SAR -N
     dm-2              0.00     0.00    0.02    1.74     0.31    13.91     8.09     0.23  129.84   0.09   0.02
     
     每项数据的含义如下，
-    rrqm/s:     每秒进行 merge 的读操作数目。即 rmerge/s
-    wrqm/s:     每秒进行 merge 的写操作数目。即 wmerge/s
-    r/s:       每秒完成的读 I/O 设备次数。即 rio/s
+    rrqm/s:	每秒进行 merge 的读操作数目。即 rmerge/s
+    wrqm/s:	每秒进行 merge 的写操作数目。即 wmerge/s
+    r/s:	每秒完成的读 I/O 设备次数。即 rio/s
     w/s:       每秒完成的写 I/O 设备次数。即 wio/s
     rsec/s:     每秒读扇区数。即 rsect/s
     wsec/s:     每秒写扇区数。即 wsect/s
